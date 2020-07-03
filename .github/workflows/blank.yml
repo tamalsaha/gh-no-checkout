@@ -15,6 +15,7 @@ jobs:
 
     - name: Run a multi-line script
       run: |
+        git log --pretty=oneline
         ls -l
         echo "________________"
         pwd
