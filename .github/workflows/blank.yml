@@ -19,4 +19,10 @@ jobs:
         echo "________________"
         pwd
         env | grep GIT | sort
+        cd ..
+        
+
+    - name: Run a multi-line script
+      run: |
+        pwd
         
