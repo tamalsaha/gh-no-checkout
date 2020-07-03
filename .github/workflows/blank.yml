@@ -18,7 +18,7 @@ jobs:
         ls -l
         echo "________________"
         pwd
-        env | grep GIT | sort
+        env | sort
         cd ..
         
 
